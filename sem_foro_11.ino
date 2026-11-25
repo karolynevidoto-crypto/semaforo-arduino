@@ -9,18 +9,18 @@ void setup() {
 }
 
 void loop() {
-  // Acende o vermelho por 3 segundos
+  // Acende o vermelho por 5 segundos
   digitalWrite(VERMELHO, HIGH);
-  delay(3000);
+  delay(5000);
   digitalWrite(VERMELHO, LOW);
   
-  // Acende o amarelo por 3 segundos
+  // Acende o amarelo por 2 segundos
   digitalWrite(AMARELO,HIGH);
-  delay(3000);
+  delay(2000);
   digitalWrite(AMARELO, LOW);
   
-  // Acende o verde por 3  segundos
+  // Acende o verde por 4  segundos
   digitalWrite(VERDE, HIGH);
-  delay(3000);
+  delay(4000);
   digitalWrite(VERDE, LOW);
 }
